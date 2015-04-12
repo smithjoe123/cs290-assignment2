@@ -1,0 +1,78 @@
+td:first-child
+{
+
+	font-style: italic;
+	color: red;
+	//background-color: red;
+	
+}
+
+th:first-child
+{
+
+	
+
+}
+
+td:nth-child(3)
+{
+
+	color:blue;
+
+}
+
+
+
+table tbody tr:nth-child(odd)
+{
+
+	background-color: lightgreen;
+
+}
+
+tr:nth-child(even):not(thead)
+{
+
+	background-color: lightblue;
+}
+
+
+dt:hover~dd
+{
+
+	background-color: purple;
+
+}
+
+.outer-content
+{
+
+	margin-top: 20px;
+
+	background-color: pink;
+
+	width: 75%;
+
+}
+
+.inner-content
+{
+
+	background-color: blue;
+
+	width: 75%;
+
+	margin: 0 auto;
+
+}
+
+img
+{
+
+	height: 100px;
+
+	width: 125px;
+
+	float:left;
+
+}
